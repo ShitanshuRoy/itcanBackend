@@ -43,8 +43,6 @@ export async function createCart(items, id) {
 
 export async function getCartById(id) {
   const cart = await Cart.findOne({ _id: id });
-  console.log(cart);
   const itemsDetail = await getItemsById(cart.items);
-  console.log("itemdetails", itemsDetail);
   return { ...cart._doc, itemDetails: itemsDetail };
 }

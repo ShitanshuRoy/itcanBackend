@@ -8,6 +8,5 @@ export const createCart = async (req, res) => {
 export const getCart = async (req, res) => {
   const id = req.params.id;
   const cart = await getCartById(id);
-  console.log("cart", cart);
   res.send(cart);
 };
