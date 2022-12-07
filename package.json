@@ -44,7 +44,7 @@
     "body-parser": "^1.18.2",
     "cookie-parser": "^1.4.3",
     "cors": "^2.8.5",
-    "express": "^4.16.1",
+    "express": "^4.17.3",
     "express-force-ssl": "^0.3.2",
     "express-request-language": "^1.1.12",
     "jsonwebtoken": "^8.0.1",
